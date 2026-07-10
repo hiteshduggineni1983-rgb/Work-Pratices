@@ -13,4 +13,4 @@ def simulate_atm_withdrawals(balance: int, withdrawals: list[int]) -> list[str]:
             result.append(f"Insufficient funds for requested amount: {amount}")
         index += 1
     result.append(f"Remaining Balance: {balance}")
-    return resu
+    return result
